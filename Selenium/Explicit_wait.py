@@ -7,7 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 s = Service(r'D:\chromedriver_win32 (3)\chromedriver.exe')
 driver = webdriver.Chrome(service=s)
 
-driver.get("https://rahulshettyacademy.com/seleniumPractise/#/")
+driver.get("c")
 
 driver.maximize_window()
 driver.find_element(By.XPATH, "//input[@placeholder = 'Search for Vegetables and Fruits']").send_keys("ber")
